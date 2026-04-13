@@ -1,24 +1,37 @@
-print("ki obsthaaaaaaaa")
-#hello single line comment
-""""hedfdhfd multiline"""
+# print("ki obsthaaaaaaaa")
+# #hello single line comment
+# """"hedfdhfd multiline"""
+
+# name = "Mamun"
+# age = 100
+# print(type(age))
+# print(type(name))
+
+# #Numbers
+# a=1
+# b=1.5
+# c=4j
+# print(a)
+# print(type(a))
+# print(type(b))
+# print(type(c))
+
+a = "22"
+# print(chr(a))
+
+# a = "Abdullah Al Mamun"
+# print(a[0])
+# print(a[0:8:1]) for slice
+
+a = int(a)
+
+print(type(a))
+
+#falsy values : False,0,0.0,{}[]()""
 
 name = "Mamun"
-age = 100
-print(type(age))
-print(type(name))
+age=55
+# print(f"my name is {name},my age is {age}")#formate string
 
-#Numbers
-a=1
-b=1.5
-c=4j
+a= int(input("What is your name: "))
 print(a)
-print(type(a))
-print(type(b))
-print(type(c))
-
-a = 27
-print(chr(a))
-
-a = "Abdullah Al Mamun"
-print(a[0])
-print(a[0:8:1])
