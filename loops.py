@@ -51,13 +51,47 @@
 
 # print(f"your factorial is {fact}")
 
-n = int(input("Enter your number "))
-even = 0
-odd = 0
-for i in range(1,n+1):
-    if i%2 == 0:
-        even = even + i
-    else:
-        odd = odd + i
-print(f"Your Even is {even}")
-print(f"your Odd is  {odd}")
+# n = int(input("Enter your number "))
+# even = 0
+# odd = 0
+# for i in range(1,n+1):
+#     if i%2 == 0:
+#         even = even + i
+#     else:
+#         odd = odd + i
+# print(f"Your Even is {even}")
+# print(f"your Odd is  {odd}")
+
+# n = int(input("Enter your number "))
+# for i in range(1,n+1):
+#     if n%i == 0:
+#         print(i)
+# n = int(input("Enter your number "))
+# count  = 0
+# for i in range(1,n+1):
+#     if n%i == 0:
+#         count = count + 1
+# if count == 2:
+#     print("Prime Number")
+# else:
+#     print("Not Prime")                    
+
+# n = int(input("Enter your number "))
+# for i in range(1,n+1):
+#     if n%i == 0:
+#         print(i)
+
+# str = "Mamun"
+# revers = ""
+# for i in range(len(str)-1,-1,-1):
+#     revers = revers+str[i]
+# print(revers)    
+
+# a = 1
+# while a<=20:
+#     print(a)
+#     a = a+1
+
+import random
+num = random.randint(1,100)
+print(num)
