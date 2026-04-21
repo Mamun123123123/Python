@@ -40,16 +40,16 @@
 #         max = i
 # print(max)    
 
-# a = [2,10,5,8]
-# max = a[0]
-# second_max = a[1]
-# for i in a:
-#     if i> max:
-#         second_max = max
-#         max = i
-#     elif i>second_max and max != i:
-#         second_max = i
-# print(second_max)  
+a = [2,10,5,8]
+max = a[0]
+second_max = a[1]
+for i in a:
+    if i> max:
+        second_max = max
+        max = i
+    elif i>second_max and max != i:
+        second_max = i
+print(second_max)  
 
 print("Hello")
 
